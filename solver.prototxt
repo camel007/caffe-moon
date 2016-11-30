@@ -1,0 +1,30 @@
+# The train/test net protocol buffer definition
+net: "/home/nd/caffe_set/caffe-moon/examples/moon_tiny/train_val.prototxt"
+# To skip test at start
+# test_iter specifies how many forward passes the test should carry out.
+# In our case, 625*32=20K is above the total number of validation images
+test_iter: 313
+# To have batch_size = 64
+#iter_size: 2
+# Carry out testing every X training iterations (same as display).
+test_interval: 2500
+# The base learning rate, momentum and the weight decay of the network.
+base_lr: 0.00001
+momentum: 0.0
+weight_decay: 1e-05
+# The learning rate policy
+lr_policy: "inv"
+gamma: 0.0001
+power: 0.75
+# Display every X iterations
+display: 200
+average_loss: 2500
+# The maximum number of iterations #50 epochs
+max_iter: 1000000
+# snapshot intermediate results
+snapshot: 5000
+snapshot_prefix: "/home/nd/caffe_set/caffe-moon/examples/moon_tiny/models/moon_tiny"
+# solver mode: CPU or GPU
+solver_mode: GPU
+type: "RMSProp"
+rms_decay: 0.98
