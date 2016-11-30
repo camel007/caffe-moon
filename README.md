@@ -7,7 +7,7 @@ I get 89+% accuracy, better than paper's result. The trained model is only 4+M s
 
 ### network structure
 
-[moon_timy](https://github.com/camel007/caffe-moon/blob/master/moon_tiny.png)
+![image](https://github.com/camel007/caffe-moon/blob/master/moon_tiny.png)
 
 ## Usage  
 
