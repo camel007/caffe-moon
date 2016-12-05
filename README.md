@@ -5,6 +5,10 @@
 This repo provide a solution for face attributes prediction, I design a tiny neural network with Mixed Objective Optimizition, And trained on celebA face database with mis-aligned face.
 I get 89+% accuracy, better than paper's result. The trained model is only 4+M size.  
 
+### network structure
+
+![image](https://github.com/camel007/caffe-moon/blob/master/moon_tiny.png)
+
 ## Usage  
 
 ### Train  
