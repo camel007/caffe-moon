@@ -6,7 +6,7 @@ This repo provide a solution for face attributes prediction, I design a tiny neu
 I get 89+% accuracy, better than paper's result. The trained model is only 4+M size.  
 
 ### network structure
-
+This network structure is inspired by [caffe-tiny](http://pjreddie.com/darknet/tiny-darknet/)
 ![image](https://github.com/camel007/caffe-moon/blob/master/moon_tiny.png)
 
 ## Usage  
