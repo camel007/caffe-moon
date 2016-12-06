@@ -29,11 +29,4 @@ You should install ipython befor run "test_moon_euclidean.ipynb"
 
 ## Reference  
 
-If you find caffe-moon useful in you research, please consider citing:  
-    @article{ 
-        Author  = {Ethan M. Rudd},  
-        Title   = {MOON: A Mixed Objective Optimization Network for the Recognition of Facial Attributes
-unther}  
-        Journal = {arXiv preprint arXiv: 1603.07027}  
-        Year    = {2016}  
-    }
+1, [MOON: A Mixed Objective Optimization Network for the Recognition of Facial Attributes](https://arxiv.org/abs/1603.07027)
