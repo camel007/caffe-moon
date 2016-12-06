@@ -165,7 +165,7 @@ int main(int argc, char** argv) {
                 CHECK_EQ(data_label.size(), data_size_label) << "Incorrect data field size "
                     << data_label.size();
 
-                const std::string& data_image = data_image.data();
+                const std::string& data_image = datum_image.data();
                 CHECK_EQ(data_image.size(), data_size_image) << "Incorrect data field size "
                     << data_image.size();
             }
